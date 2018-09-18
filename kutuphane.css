@@ -1,0 +1,172 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+.row{
+	padding:0px;
+	margin:0px;
+}
+/*header*/
+.headercol{
+	background-color:#674eec;
+	padding:10px 40px 10px 30px;
+}
+.headercol > img{
+	float:left;
+}
+.hcikis{
+	float:right;
+	margin-top:10px;
+}
+.hcikis > a{
+	color:white;
+	text-decoration:none;
+}
+/*header*/
+
+
+/*sidebar*/
+#custom-search-input{
+    padding: 3px;
+    border: solid 1px #E4E4E4;
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+#custom-search-input input{
+    border: 0;
+    box-shadow: none;
+}
+
+#custom-search-input button{
+    margin: 2px 0 0 0;
+    background: none;
+    box-shadow: none;
+    border: 0;
+    color: #666666;
+    padding: 0 8px 0 10px;
+}
+
+#custom-search-input button:hover{
+    border: 0;
+    box-shadow: none;
+}
+
+#custom-search-input .glyphicon-search{
+    font-size: 23px;
+}
+
+
+.kisibilgileri{
+    list-style:none;
+}
+.kisibilgileri > li:hover{
+    background-color:#F8F8F8;
+}
+
+
+.bilgiler{
+    list-style:none;
+    margin:0px;
+    padding:0px;
+}
+.ilkcizgi{
+    border-bottom:2px solid rgba(0,0,0,.1)
+}
+/*sidebar*/
+
+/*icerik*/
+
+.altbilgiler{
+	text-align:center;
+}
+/*icerik*/
+
+
+/*footer*/
+.footer{
+	border-top:2px solid #674eec;
+	background-color:#FCF5FD;
+}
+.copyright{
+	color:#674eec;
+	float:right;
+	padding:15px 25px 15px 25px;
+	margin-bottom:0px;
+	font-size:15px;
+}
+.dpTextgrp{
+    margin-bottom:10px;
+}
+/*footer*/
+
+/*nesneler*/
+.button,.buttondel{
+    background-color:transparent;
+    border: 1px solid #007bff;
+    border-radius:7px;
+    color: #007bff;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.button:focus,.button2:focus,.buttondel:focus{
+    outline:none;
+}
+.button:hover{
+	background-color:rgba(0,123,255,.1);
+	transition:all 250ms;
+    cursor:pointer;
+}
+.buttondel:hover{
+	background-color:rgba(255,0,0,0.08);
+	transition:all 250ms;
+    cursor:pointer;
+}
+.button2:hover{
+    cursor:pointer;
+}
+.button2{
+    background-color:#007bff;
+    border: 1px solid #007bff;
+    border-radius:15px;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+.silbuttons{
+    margin-top:50px;
+    padding-bottom:25px;
+}
+.button3{
+    background-color:red;
+    border: 1px solid red;
+    border-radius:8px;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    width:100px;
+}
+.button4{
+    background-color:#007bff;
+    border: 1px solid #007bff;
+    border-radius:8px;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    width:100px;
+}
+.kisilistebg1{
+    background-color:#F8F8F8;
+}
+.kisilistebg2{
+    background-color:white;
+}
